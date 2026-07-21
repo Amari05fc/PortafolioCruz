@@ -36,12 +36,9 @@ export function FloatingNav() {
           href="#top"
           className="flex items-center gap-2 font-mono text-sm font-medium text-foreground"
         >
-          <span className="flex size-8 items-center justify-center rounded-full bg-primary/15 text-primary ring-1 ring-primary/30">
-            <Code2 className="size-4" />
-          </span>
           <span className="hidden sm:inline">
             {"<"}
-            <span className="text-primary">dev</span>
+            <span className="text-primary">Cruz</span>
             {"/>"}
           </span>
         </a>
@@ -62,7 +59,7 @@ export function FloatingNav() {
         <div className="hidden items-center gap-2 rounded-full bg-primary/10 px-3 py-1.5 ring-1 ring-primary/20 md:flex">
           <span className="size-2 animate-pulse rounded-full bg-primary" />
           <span className="font-mono text-xs text-muted-foreground">
-            Disponible
+            En Formación
           </span>
         </div>
       </nav>

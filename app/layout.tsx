@@ -16,24 +16,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Portafolio | Ingeniera de Software',
-  description: 'Portafolio de Ingeniería de Software — proyectos, skills y contacto.',
-  generator: 'v0.app',
+  title: 'Portafolio | Fernand Cruz',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/women_info.ico',
     apple: '/apple-icon.png',
   },
 }

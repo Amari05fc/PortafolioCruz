@@ -14,19 +14,19 @@ export function AboutMe() {
         <div className="space-y-5 text-pretty text-base leading-relaxed text-muted-foreground">
           <p>
             {"¡Hola! Soy "}
-            <span className="text-foreground">Fer Cruz</span>
+            <span className="text-foreground">Fernand Cruz</span>
             {
-              ", Ingeniera de Software. Me apasiona crear soluciones que viven en internet y resolver problemas reales a través del código. Mi interés en el desarrollo comenzó cuando descubrí que podía convertir ideas en productos funcionales."
+              ",  como Ingeniera de Software, mi enfoque va más allá de escribir líneas de código; busco comprender el ecosistema completo de cada proyecto."
             }
           </p>
           <p>
             {
-              "Disfruto construir aplicaciones desde cero, cuidando la arquitectura, el rendimiento y la experiencia de usuario. Aprender tecnologías nuevas y llevar conceptos hasta su versión final es lo que más me motiva."
+              "Actualmente, estoy profundamente dedicada a expandir mis horizontes, aprendiendo activamente las bases de disciplinas diversas: desde el desarrollo front y back hasta la ciberseguridad, el diseño y la gestión ágil. Me apasiona conectar esos puntos. Entender cómo el soporte afecta al diseño, o cómo la seguridad influye en el rendimiento, me permite crear soluciones más robustas y humanas."
             }
           </p>
           <p>
             {
-              "Hoy mi enfoque está en desarrollar interfaces limpias e interactivas y sistemas escalables, combinando buenas prácticas de ingeniería con un ojo para el diseño."
+              "Creo firmemente que la mejor ingeniería nace de la curiosidad. Por eso, cada proyecto es una oportunidad para aprender, aplicar y mejorar, asegurando que el resultado final no solo funcione, sino que tenga sentido en su contexto global."
             }
           </p>
 
@@ -49,7 +49,7 @@ export function AboutMe() {
           <div className="relative overflow-hidden rounded-2xl border border-border">
             <Image
               src="/about-portrait.png"
-              alt="Retrato de Fer Cruz, Ingeniera de Software"
+              alt="Cruz, Ingeniera de Software"
               width={600}
               height={720}
               className="h-auto w-full object-cover grayscale transition-all duration-500 ease-out group-hover:scale-105 group-hover:grayscale-0"

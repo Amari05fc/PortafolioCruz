@@ -9,7 +9,7 @@ export function Hero() {
       <div className="max-w-3xl">
         <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/40 px-4 py-1.5 font-mono text-xs text-foreground backdrop-blur-md">
           <Sparkles className="size-3.5 text-primary" />
-          Hola, bienvenida a mi portafolio
+          Curiosidad que construye
         </span>
 
         <h1 className="mt-6 text-balance font-sans text-5xl font-bold leading-[0.95] tracking-tight text-foreground sm:text-6xl md:text-7xl">
