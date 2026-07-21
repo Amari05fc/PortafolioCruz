@@ -25,33 +25,33 @@ interface Project {
 const projects: Project[] = [
   {
     index: "01",
-    title: "TaskFlow",
+    title: "Hobby Match",
     description:
-      "Gestor de tareas colaborativo con tableros tipo kanban, actualizaciones en tiempo real y asignación de equipos. Construido para mantener el foco y la productividad del equipo.",
-    image: "/project-taskflow.png",
-    tags: ["Next.js", "TypeScript", "PostgreSQL"],
-    repo: "https://github.com/",
-    demo: "https://vercel.com/",
+      "Hobby Match es un sistema que usa lógica difusa para recomendarte entre 37 hobbies, basándose en 20 variables de tu personalidad y estado de ánimo actual.",
+    image: "/projects/hobbymatch.png",
+    tags: ["React", "Vite", "TypeScript", "FastAPI + Python", "Fuzzy Logic"],
+    repo: "https://github.com/Amari05fc/HobbyMatch.git",
+    demo: "https://hobbymatchfl.netlify.app/",
   },
-  {
+  { 
     index: "02",
-    title: "Panel de Analíticas",
+    title: "Bateria",
     description:
-      "Dashboard de analíticas en tiempo real con visualizaciones interactivas, métricas en vivo y reportes personalizables para monitorear el rendimiento del negocio.",
-    image: "/project-analytics.png",
-    tags: ["React", "Node.js", "Recharts"],
-    repo: "https://github.com/",
-    demo: "https://vercel.com/",
+      "Es una batería virtual web creada con HTML, CSS y JavaScript que reproduce sonidos de batería al presionar las teclas A, S, D, F, G, H, J, K o L. El objetivo del proyecto fue practicar habilidades de programación en JS.",
+    image: "/projects/bateria.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    repo: "https://github.com/Amari05fc/bateria.git",
+    demo: "https://bateria-fch.netlify.app/",
   },
   {
     index: "03",
-    title: "Chat en Tiempo Real",
+    title: "Clon de Google",
     description:
-      "Aplicación de mensajería con salas, notificaciones instantáneas y presencia en línea. Comunicación fluida usando WebSockets y una arquitectura escalable.",
-    image: "/project-chatapp.png",
-    tags: ["Next.js", "Socket.io", "Redis"],
-    repo: "https://github.com/",
-    demo: "https://vercel.com/",
+      "Es un clon de la página de inicio de Google creado para practicar HTML y CSS como parte del bootcamp de Tecnolochicas PRO. El proyecto se enfoca únicamente en replicar la estructura y el diseño visual de Google sin funcionalidad de búsqueda real.",
+    image: "/projects/clongoogle.png",
+    tags: ["HTML", "CSS"],
+    repo: "https://github.com/Amari05fc/clon-google-b4-g2.git",
+    demo: "https://clon-google-fercruzh.netlify.app/",
   },
 ]
 
