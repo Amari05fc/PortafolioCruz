@@ -1,12 +1,18 @@
-import { Sparkles, ArrowDown } from "lucide-react"
+import { Sparkles } from "lucide-react"
 
 export function Hero() {
   return (
     <section
       id="top"
-      className="relative mx-auto flex min-h-svh max-w-6xl flex-col justify-center px-6 pt-32 pb-20 sm:px-10"
+      className="relative isolate flex min-h-svh flex-col justify-center overflow-hidden px-6 pt-32 pb-20 sm:px-10"
     >
-      <div className="max-w-3xl">
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_85%_15%,rgba(34,197,94,0.28),transparent_24%),radial-gradient(circle_at_15%_80%,rgba(16,185,129,0.12),transparent_32%),linear-gradient(120deg,rgba(9,14,12,0.98)_0%,rgba(5,10,8,0.96)_45%,rgba(10,18,15,0.96)_100%)]" />
+      <div className="pointer-events-none absolute inset-y-0 right-[8%] -z-10 w-[18%] rounded-full bg-primary/20 blur-[140px]" />
+      <div className="pointer-events-none absolute inset-0 -z-10 opacity-40 [background-image:linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] [background-size:36px_36px]" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-28 bg-gradient-to-t from-background via-background/70 to-transparent" />
+
+      <div className="mx-auto w-full max-w-6xl">
+        <div className="max-w-3xl">
         <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background/40 px-4 py-1.5 font-mono text-xs text-foreground backdrop-blur-md">
           <Sparkles className="size-3.5 text-primary" />
           Curiosidad que construye
@@ -24,30 +30,22 @@ export function Hero() {
           <span className="text-foreground">Fer Cruz</span>, Ingeniera de Software apasionada por entender el ecosistema completo de cada proyecto para crear resultados que funcionen y tengan sentido.
         </p>
 
-        <div className="mt-10 flex flex-wrap items-center gap-4">
-          <a
-            href="#proyectos"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-mono text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
-          >
-            Ver mis proyectos
-          </a>
-          <a
-            href="#contacto"
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-background/40 px-6 py-3 font-mono text-sm text-foreground backdrop-blur-md transition-colors hover:bg-primary/10"
-          >
-            ¡Contactemos!
-          </a>
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <a
+              href="#proyectos"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-mono text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
+            >
+              Ver mis proyectos
+            </a>
+            <a
+              href="#contacto"
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-background/40 px-6 py-3 font-mono text-sm text-foreground backdrop-blur-md transition-colors hover:bg-primary/10"
+            >
+              ¡Contactemos!
+            </a>
+          </div>
         </div>
       </div>
-
-      <a
-        href="#about"
-        aria-label="Bajar a la sección Sobre mí"
-        className="absolute bottom-8 left-1/2 flex -translate-x-1/2 items-center gap-2 font-mono text-xs text-muted-foreground transition-colors hover:text-primary"
-      >
-        <ArrowDown className="size-4 animate-bounce" />
-        scroll
-      </a>
     </section>
   )
 }

@@ -4,6 +4,7 @@ import { Hero } from "@/components/hero"
 import { AboutMe } from "@/components/about-me"
 import { Projects } from "@/components/projects"
 import { Contact } from "@/components/contact"
+import { Footer } from "@/components/footer"
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   )
 }
