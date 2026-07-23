@@ -56,12 +56,7 @@ export function FloatingNav() {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-2 rounded-full bg-primary/10 px-3 py-1.5 ring-1 ring-primary/20 md:flex">
-          <span className="size-2 animate-pulse rounded-full bg-primary" />
-          <span className="font-mono text-xs text-muted-foreground">
-            En Formación
-          </span>
-        </div>
+
       </nav>
     </header>
   )

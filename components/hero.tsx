@@ -21,10 +21,7 @@ export function Hero() {
 
         <p className="mt-8 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
           Soy{" "}
-          <span className="text-foreground">[Fer Cruz]</span>, Ingeniera de
-          Software. Diseño y desarrollo aplicaciones limpias, interactivas y de
-          alto rendimiento, cuidando cada detalle desde el código hasta la
-          experiencia final.
+          <span className="text-foreground">Fer Cruz</span>, Ingeniera de Software apasionada por entender el ecosistema completo de cada proyecto para crear resultados que funcionen y tengan sentido.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -32,13 +29,13 @@ export function Hero() {
             href="#proyectos"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-mono text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
           >
-            Ver proyectos
+            Ver mis proyectos
           </a>
           <a
             href="#contacto"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-background/40 px-6 py-3 font-mono text-sm text-foreground backdrop-blur-md transition-colors hover:bg-primary/10"
           >
-            Contactemos
+            ¡Contactemos!
           </a>
         </div>
       </div>
