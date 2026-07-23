@@ -6,7 +6,7 @@ import { Code2 } from "lucide-react"
 const LINKS = [
   { label: "AboutMe", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Proyectos", href: "#proyectos" },
+  { label: "Proyectos", href: "#projects" },
   { label: "Contactemos", href: "#contacto" },
 ]
 
