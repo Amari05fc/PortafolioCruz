@@ -47,9 +47,9 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="w-full max-w-[13rem] self-center rounded-[1rem] border border-white/10 bg-white/8 px-3.5 py-3 shadow-[0_8px_28px_-16px_rgba(0,0,0,0.75)] backdrop-blur-xl lg:self-center lg:-translate-x-55">
-
-            <div className="mt-3 space-y-2">
+          <div className="group relative w-full max-w-[14rem] self-center rounded-[1.1rem] border border-white/10 bg-white/5 px-3.5 py-3 shadow-[0_18px_50px_-24px_rgba(0,0,0,0.95)] backdrop-blur-[18px] transition-transform duration-300 hover:-translate-y-1 lg:self-center lg:-translate-x-55">
+            <div className="absolute inset-0 rounded-[1.1rem] bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.12),transparent_55%)]" />
+            <div className="relative mt-3 space-y-2">
               <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
                 <span className="text-muted-foreground">Proyectos</span>
                 <span className="font-semibold text-foreground">6+</span>
@@ -57,6 +57,14 @@ export function Hero() {
               <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
                 <span className="text-muted-foreground">Hackathons</span>
                 <span className="font-semibold text-foreground">4</span>
+              </div>
+              <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
+                <span className="text-muted-foreground">Artículo</span>
+                <span className="font-semibold text-foreground">1+</span>
+              </div>
+              <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
+                <span className="text-muted-foreground">Certificaciones</span>
+                <span className="font-semibold text-foreground">3+</span>
               </div>
               <div className="flex items-center justify-between text-sm">
                 <span className="text-muted-foreground">Curiosidad</span>
