@@ -60,11 +60,11 @@ export function Projects() {
     <section id="projects" className="mx-auto w-full max-w-6xl px-6 py-24 sm:px-8">
       <SectionHeading label="Proyectos" />
 
-      <div className="mt-16 flex flex-col gap-20 lg:gap-32">
+      <div className="mt-12 flex flex-col gap-10 lg:gap-16">
         {projects.map((project, i) => {
           const reversed = i % 2 === 1
           return (
-            <article key={project.title} className="group relative lg:min-h-[24rem]">
+            <article key={project.title} className="group relative lg:min-h-[19rem]">
               {/* Imagen / demo (capa de fondo) */}
               <a
                 href={project.demo}
@@ -75,7 +75,7 @@ export function Projects() {
                   reversed ? "lg:right-0" : "lg:left-0"
                 }`}
               >
-                <div className="relative aspect-[16/10] w-full">
+                <div className="relative aspect-[16/10] w-full sm:aspect-[16/9]">
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={`Captura del proyecto ${project.title}`}
@@ -102,21 +102,21 @@ export function Projects() {
                     : "lg:ml-auto lg:items-end lg:text-right"
                 }`}
               >
-                <p className="pointer-events-auto font-mono text-sm text-accent">
+                <p className="pointer-events-auto font-mono text-xs uppercase tracking-[0.25em] text-accent">
                   Proyecto destacado
                 </p>
-                <h3 className="pointer-events-auto mt-2 text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
+                <h3 className="pointer-events-auto mt-2 text-xl font-bold tracking-tight text-foreground sm:text-2xl">
                   {project.title}
                 </h3>
 
-                <div className="pointer-events-auto mt-5 w-full rounded-xl border border-border/60 bg-popover/85 p-6 shadow-xl shadow-background/40 backdrop-blur-md">
-                  <p className="text-pretty leading-relaxed text-muted-foreground">
+                <div className="pointer-events-auto mt-4 w-full rounded-xl border border-border/60 bg-popover/85 p-4 shadow-xl shadow-background/40 backdrop-blur-md sm:p-5">
+                  <p className="text-pretty text-sm leading-relaxed text-muted-foreground">
                     {project.description}
                   </p>
                 </div>
 
                 <ul
-                  className={`pointer-events-auto mt-5 flex flex-wrap gap-x-4 gap-y-2 font-mono text-sm text-muted-foreground ${
+                  className={`pointer-events-auto mt-4 flex flex-wrap gap-x-3 gap-y-2 font-mono text-xs text-muted-foreground ${
                     reversed ? "lg:justify-start" : "lg:justify-end"
                   }`}
                 >
@@ -126,7 +126,7 @@ export function Projects() {
                 </ul>
 
                 <div
-                  className={`pointer-events-auto mt-4 flex items-center gap-4 ${
+                  className={`pointer-events-auto mt-3 flex items-center gap-3 ${
                     reversed ? "lg:justify-start" : "lg:justify-end"
                   }`}
                 >

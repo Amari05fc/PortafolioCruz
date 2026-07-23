@@ -48,7 +48,7 @@ export function FloatingNav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="rounded-full px-3 py-1.5 font-mono text-xs tracking-wide text-muted-foreground transition-colors hover:bg-primary/10 hover:text-foreground sm:text-sm"
+                className="rounded-full px-3 py-1.5 font-mono text-xs tracking-wide text-white/90 transition-colors hover:bg-primary/10 hover:text-white sm:text-sm"
               >
                 {link.label}
               </a>
