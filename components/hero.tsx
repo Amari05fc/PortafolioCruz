@@ -52,19 +52,19 @@ export function Hero() {
             <div className="relative mt-3 space-y-2">
               <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
                 <span className="text-muted-foreground">Proyectos</span>
-                <span className="font-semibold text-foreground">6+</span>
-              </div>
-              <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
-                <span className="text-muted-foreground">Hackathons</span>
                 <span className="font-semibold text-foreground">4</span>
               </div>
               <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
+                <span className="text-muted-foreground">Hackathons</span>
+                <span className="font-semibold text-foreground">5</span>
+              </div>
+              <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
                 <span className="text-muted-foreground">Artículo</span>
-                <span className="font-semibold text-foreground">1+</span>
+                <span className="font-semibold text-foreground">1</span>
               </div>
               <div className="flex items-center justify-between border-b border-white/10 pb-2 text-sm">
                 <span className="text-muted-foreground">Certificaciones</span>
-                <span className="font-semibold text-foreground">3+</span>
+                <span className="font-semibold text-foreground">3</span>
               </div>
               <div className="flex items-center justify-between text-sm">
                 <span className="text-muted-foreground">Curiosidad</span>
